@@ -1,0 +1,139 @@
+.background {
+  viewport-fill: #2d4140;
+}
+
+.clock {
+  width: 100%;
+  height: 50%;
+}
+
+.stats {
+  width: 100%;
+  height: 15%;
+  y: 50%;
+}
+
+.info {
+  width: 100%;
+  height: 40%;
+  y: 65%;
+}
+
+.grey {
+  font-family: Colfax-Light;
+  font-size: 30;
+  text-length: 255;
+  fill: #e8e8e3;
+}
+
+.blush {
+  font-family: Colfax-Light;
+  font-size: 30;
+  text-length: 255;
+  fill: #dbc4c0;
+}
+
+.copper {
+  font-family: Colfax-Light;
+  font-size: 30;
+  text-length: 255;
+  fill: #ac7d53;
+}
+
+.icon {
+  width: 30;
+  height: 30;
+  text-anchor: middle;
+}
+
+#time {
+  font-size: 100;
+  text-anchor: middle;
+  x: 38%;
+  y: 68%;
+}
+
+#sec {
+  font-size: 40;
+  text-anchor: middle;
+  x: 89%;
+  y: 35%;
+}
+
+#ampm {
+  font-size: 40;
+  text-anchor: middle;
+  x: 89%;
+  y: 65%;
+}
+
+#date {
+  text-anchor: middle;
+  x: 50%;
+  y: 98%;
+}
+
+#stepsLabel {
+  x: 5%;
+  y: 10%;
+}
+
+#steps {
+  text-anchor: start;
+  x: 15%;
+  y: 80%;
+}
+
+#hrLabel {
+  x: 42%;
+  y: 10%;
+}
+
+#hr {
+  text-anchor: start;
+  x: 53%-5;
+  y: 80%;
+}
+
+#calLabel {
+  x: 70%;
+  y: 10%;
+}
+
+#cal {
+  text-anchor: start;
+  x: 78%+5;
+  y: 80%;
+}
+
+#loc {
+  text-anchor: middle;
+  x: 50%;
+  y: 25%;
+}
+
+#alt {
+  text-anchor: middle;
+  x: 50%;
+  y: 56%;
+}
+
+#temp {
+  font-size: 40;
+  text-anchor: middle;
+  x: 17%;
+  y: 45%;
+}
+
+#weather {
+  width: 55;
+  height: 55;
+  x: 75%;
+  y: 0%;
+}
+
+#marquee {
+  text-anchor: start;
+  x: 3%;
+  y: 18%;
+}

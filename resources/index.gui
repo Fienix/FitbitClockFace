@@ -1,0 +1,26 @@
+<svg class="background">
+  <svg class="clock">
+    <text id="time" class="grey" />
+    <text id="sec" class="grey" />
+    <text id="ampm" class="grey" />
+    <text id="date" class="blush" />
+  </svg>
+  <svg class="stats">
+    <image id="hrLabel" class="copper icon" href="icons/Heart.png" />
+    <text id="hr" class="grey" />
+    <image id="stepsLabel" class="copper icon" href="icons/Steps.png" />
+    <text id="steps" class="grey" />
+    <image id="calLabel" class="copper icon" href="icons/Calories.png" />
+    <text id="cal" class="grey" />
+  </svg>
+  <svg class="info">
+    <text id="loc" class="copper" />
+    <text id="alt" class="grey" />
+    <text id="temp" class="blush" />
+    <image id="weather" class="blush icon" />
+    <use id="marquee" class="blush" href="#marquee-text" mode="1" value="75">
+      <set id="group/text" href="group/text" attributeName="text-buffer" />
+      <set href="group/separator" attributeName="width" to="150" />
+    </use>
+  </svg>
+</svg>
